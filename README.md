@@ -3,15 +3,23 @@ Flipbook.js
 
 For automatically flip-booking progress while developing something for the web.
 
+Why?
+----
+
+I wanted a "set it and forget it" way to track the visual evolution of something I'm working on that I could revisit later to remember all the different design issues that came up and forks in the road.
+
+How?
+----
+
 This uses PhantomJS to automatically screencap a provided URL from the command line with the option of multiple breakpoints, and saves screenshots out with timestamps and dimensions in the filename.
 
-Requires installation of [PhantomJS](http://phantomjs.org/) first.
+First, install [PhantomJS](http://phantomjs.org/).
 
-To get started, run:
+Then, to get started, run:
 
 	phantomjs flipbook-capture.js
 
-This will give you a list of the extra command line options.  The only required argument is a URL to capture, like:
+This will give you a list of the extra options.  The only required argument is a URL to capture, like:
 
 	phantomjs flipbook-capture.js -u http://www.google.com
 
