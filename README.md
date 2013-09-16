@@ -46,9 +46,10 @@ Url to capture. REQUIRED.
 Ex: `phantomjs flipbook.js -u http://www.google.com`  
  
 **-f [filename]**  
-A prefix for the image filenames.  By default, the format will be `[width]x[height]-[year]-[month]-[day]-[hour]-[minute].png`  
-Ex: `phantomjs flipbook.js -u http://www.google.com -f googleproject`
-Results in files like: `googleproject-1024x768-2013-09-12-11-08.png`
+A prefix for the image filenames.  By default, the format of the images created will be:
+`[width]x[height]-[year]-[month]-[day]-[hour]-[minute].png`  
+
+Ex: `phantomjs flipbook.js -u http://www.google.com -f googleproject` results in files like: `googleproject-1024x768-2013-09-12-11-08.png`
  
 **-v [viewport]**  
 A viewport size to capture, in format "WxH".  Default is 1024x768.  You can list as many as you want.  
