@@ -74,5 +74,5 @@ Ex: `phantomjs flipbook.js -u http://www.google.com -i 5000`
 
 To Do
 -----
-* Write a stitching script to scan a folder for screencraps and GIF them.
+* Write a stitching script to scan a folder for screencaps and GIF them.
 * Fix the queuing issue for the `-i` option.  Currently it just lazily forces a reasonable minimum delay of 1 minute, because PhantomJS will only run one capture at a time, and the threading/queuing gets a little sticky.  This is a lazy kludge but should work for most cases.
